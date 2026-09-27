@@ -37,15 +37,11 @@ Projeto estático, leve e sem dependências de framework:
 - JavaScript puro
 - Assets locais de imagem e áudio
 
+O projeto não utiliza Python, backend, banco de dados ou etapa de compilação.
+
 ## Executar localmente
 
-Você pode abrir `index.html` diretamente no navegador ou iniciar um servidor local:
-
-```bash
-python -m http.server 4173
-```
-
-Depois, acesse `http://localhost:4173`.
+Abra o arquivo `index.html` diretamente em um navegador. Não é necessário instalar dependências nem iniciar um servidor local.
 
 ## Personalização
 
