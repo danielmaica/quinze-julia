@@ -1012,7 +1012,8 @@ h1 {
   box-shadow: 0 18px 52px rgba(0, 4, 30, 0.42), 0 0 0 8px rgba(141, 199, 255, 0.06);
 }
 
-.qr-shell svg {
+.qr-shell svg,
+.qr-shell img {
   width: 100%;
   height: auto;
   display: block;

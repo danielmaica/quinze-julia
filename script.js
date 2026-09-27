@@ -1,6 +1,6 @@
 const CONFIG = {
   eventDate: "2026-11-14T19:30:00-03:00",
-  pixKey: "15anos.julia@exemplo.com",
+  pixKey: "861.431.150-87",
   driveUrl: "https://drive.google.com/drive/folders/1w6TrI6lPbCf_KE2UjEZvBWXwojF_fYAE?usp=sharing",
 };
 
@@ -208,16 +208,16 @@ function setupPix() {
   });
 }
 
-async function setupQrCode() {
+function setupQrCode() {
   const container = $("#qrCode");
 
-  try {
-    const response = await fetch("assets/qrcode-pix.svg");
-    if (!response.ok) throw new Error("QR Code indisponível");
-    container.innerHTML = await response.text();
-  } catch {
+  const image = new Image();
+  image.src = "assets/qrcode-pix-julia.png";
+  image.alt = "QR Code Pix de Júlia Escobar Maicá";
+  image.onload = () => container.replaceChildren(image);
+  image.onerror = () => {
     container.innerHTML = '<span class="qr-loading">QR Code indisponível.<br>Use a chave Pix abaixo.</span>';
-  }
+  };
 }
 
 function setupCountdown() {
