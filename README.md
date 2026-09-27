@@ -1,58 +1,36 @@
-# Quinze Júlia ✨
+# Convite Digital | 15 Anos da Júlia ✨
 
-Um convite digital criado para transformar a chegada aos 15 anos de **Júlia Escobar Maicá** em uma experiência mágica desde o primeiro toque.
+Uma experiência encantadora criada para transformar o convite em parte inesquecível da celebração.
 
-O visitante atravessa um castelo encantado, abre um portão personalizado e entra em uma celebração cercada por céu estrelado, floresta noturna, brilhos e música. Tudo foi pensado primeiro para o celular — perfeito para compartilhar pelo WhatsApp.
+Desde o primeiro toque, os convidados atravessam um cenário mágico, abrem o portão de um castelo personalizado e entram no universo da festa. Cada detalhe foi pensado para emocionar, surpreender e criar expectativa para o grande dia.
 
-## Acesse o convite
+## Conheça o convite
 
 **[Abrir o convite dos 15 anos da Júlia](https://danielmaica.github.io/quinze-julia/)**
 
-## Uma experiência de conto de fadas
+## Encanto em cada detalhe
 
-- Abertura animada com castelo, portão e brasão da aniversariante
-- Cenário noturno ilustrado com floresta, lua e céu em espiral
-- Música de fundo com controle visual de reprodução e pausa
-- Layout responsivo e otimizado para telas pequenas
-- Contagem regressiva em tempo real
+- Abertura animada com castelo, portão e brasão exclusivo
+- Cenário noturno com floresta, lua, estrelas e efeitos de brilho
+- Música de fundo para tornar a experiência ainda mais envolvente
+- Contagem regressiva para o grande dia
+- Informações da festa apresentadas de forma elegante
+- Acesso direto à localização pelo Google Maps
 - Confirmação de presença pelo WhatsApp
-- Atalhos para Google Maps e álbum colaborativo no Google Drive
-- Área para presente via Pix
-- Orientação de traje para os convidados
-- Cascata de brilhos com suporte à preferência de redução de movimento
+- Álbum colaborativo para os convidados compartilharem fotos
+- Área reservada para presentes via Pix
+- Orientação de traje integrada ao convite
 
-## Sobre o evento
+## Perfeito para compartilhar
 
-- **Data:** 14 de novembro de 2026
-- **Horário:** 19h30
-- **Traje:** esporte fino
-- **Cor reservada à debutante:** azul
+O convite foi pensado especialmente para celulares e pode ser enviado aos convidados por WhatsApp com apenas um link. A navegação é simples, delicada e intuitiva, reunindo todas as informações importantes da festa em um único lugar.
 
-## Tecnologia
+## Mais do que um convite
 
-Projeto estático, leve e sem dependências de framework:
+Um convite digital cria o primeiro momento da celebração. Ele apresenta a personalidade da aniversariante, aproxima os convidados da história da festa e transforma uma mensagem no WhatsApp em uma experiência única.
 
-- HTML5 semântico
-- CSS responsivo com animações
-- JavaScript puro
-- Assets locais de imagem e áudio
-
-O projeto não utiliza Python, backend, banco de dados ou etapa de compilação.
-
-## Executar localmente
-
-Abra o arquivo `index.html` diretamente em um navegador. Não é necessário instalar dependências nem iniciar um servidor local.
-
-## Personalização
-
-As configurações principais ficam no início de `script.js`, incluindo data do evento, chave Pix e link do álbum. O conteúdo e os links de ação ficam em `index.html`.
-
-> Antes do uso definitivo, revise a chave Pix e o QR Code correspondente.
-
-## Publicação
-
-O projeto está pronto para hospedagem estática no GitHub Pages, sem etapa de compilação.
+Cada projeto pode ganhar identidade própria por meio de cores, imagens, música, textos e detalhes escolhidos especialmente para a ocasião.
 
 ---
 
-Feito com carinho para celebrar uma noite inesquecível. 💙
+**Convites digitais exclusivos para celebrações inesquecíveis.** 💙
