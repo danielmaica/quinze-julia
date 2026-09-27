@@ -161,7 +161,6 @@ function setupDrive() {
 
   if (CONFIG.driveUrl) {
     status.textContent = "Adicionar fotos no Google Drive";
-    button.querySelector(".status-dot").style.background = "#61dca3";
   }
 
   button.addEventListener("click", () => {
