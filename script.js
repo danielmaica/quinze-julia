@@ -208,18 +208,6 @@ function setupPix() {
   });
 }
 
-function setupQrCode() {
-  const container = $("#qrCode");
-
-  const image = new Image();
-  image.src = "assets/qrcode-pix-julia.png";
-  image.alt = "QR Code Pix de Júlia Escobar Maicá";
-  image.onload = () => container.replaceChildren(image);
-  image.onerror = () => {
-    container.innerHTML = '<span class="qr-loading">QR Code indisponível.<br>Use a chave Pix abaixo.</span>';
-  };
-}
-
 function setupCountdown() {
   const eventTime = new Date(CONFIG.eventDate).getTime();
   const fields = {
@@ -390,7 +378,6 @@ setupMusic();
 setupRsvp();
 setupDrive();
 setupPix();
-setupQrCode();
 setupCountdown();
 setupRevealAnimations();
 setupSparkleCascade();
